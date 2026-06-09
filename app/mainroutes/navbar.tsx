@@ -8,7 +8,7 @@ export default function Navbar() {
       { label: 'About Us', href: '/about' },
       { label: 'Buying House', href: '/buying-house' },
       { label: 'Factory & Machinery', href: '/factory' },
-      { label: 'Global Partners', href: '/partners' },
+      { label: 'Global Partners', href: '/partners ' },
     ];
 
   const toggleMenu = () => {
