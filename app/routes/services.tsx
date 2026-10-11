@@ -36,7 +36,7 @@ const servicesData = [
 
 export default function Services() {
   return (
-    <section className="bg-[#f5f5f5] py-20 px-6">
+    <section className="bg-[#f5f5f5] py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
             
             {/* Heading */}
@@ -45,7 +45,7 @@ export default function Services() {
                     Services
                 </p>
 
-                <h1 className="text-4xl font-medium text-black mb-3 leading-tight">
+                <h1 className="text-3xl sm:text-4xl font-medium text-black mb-3 leading-tight">
                     Buying house services
                 </h1>
 
@@ -59,7 +59,7 @@ export default function Services() {
                 {servicesData.map((service) => (
                     <div
                         key={service.id}
-                        className={`rounded-xl p-10 min-h-[235px] flex flex-col justify-between transition duration-300
+                        className={`rounded-xl p-6 sm:p-8 lg:p-10 min-h-[200px] sm:min-h-[235px] flex flex-col justify-between transition duration-300
                         ${
                             service.active
                             ? "bg-[#1496d4] text-white"
@@ -67,7 +67,7 @@ export default function Services() {
                         }`}
                         >
                         <div
-                            className={`text-4xl mb-6 ${
+                            className={`text-3xl sm:text-4xl mb-6 ${
                             service.active ? "text-white" : "text-black"
                             }`}
                         >
@@ -76,7 +76,7 @@ export default function Services() {
 
                         {/* Content */}
                         <div>
-                            <h2 className="text-3xl font-medium mb-4 leading-snug">
+                            <h2 className="text-2xl sm:text-3xl font-medium mb-4 leading-snug">
                             {service.title}
                             </h2>
 

@@ -34,15 +34,15 @@ const services = [
 
 export default function CatalogSection() {
   return (
-    <section className="bg-[#f5f5f5] min-h-screen flex items-center justify-center px-6 py-16">
-        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section className="bg-[#f5f5f5] min-h-screen flex items-center justify-center px-4 sm:px-6 py-12 sm:py-16">
+        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
             
             {/* Left Image */}
             <div>
                 <img
                     src="./public/img5.png"
                     alt="fashion"
-                    className="w-full h-[600px] object-cover rounded-xl"
+                    className="w-full h-64 sm:h-96 lg:h-[600px] object-cover rounded-xl"
                 />
             </div>
 
@@ -50,7 +50,7 @@ export default function CatalogSection() {
             <div>
                 <p className="text-sm font-semibold mb-2">Catalog</p>
 
-                <h1 className="text-5xl md:text-3xl font-light leading-tight mb-4">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light leading-tight mb-4">
                     Products and services
                 </h1>
 
@@ -61,9 +61,9 @@ export default function CatalogSection() {
                 </p>
 
                 {/* Services */}
-                <div className="grid grid-cols-3 sm:grid-cols-2 gap-8 mb-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mb-8">
                     {services.map((item) => (
-                        <div key={item.id} className="flex gap-4">
+                            <div key={item.id} className="flex gap-3 sm:gap-4">
                             <div className="text-blue-600 text-xl mt-1">
                                 {item.icon}
                             </div>

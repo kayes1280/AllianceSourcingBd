@@ -59,7 +59,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="relative w-full h-screen overflow-hidden">
+      <section className="relative w-full min-h-[560px] h-[85svh] sm:h-screen overflow-hidden">
         
         <div className="absolute inset-0">
           {backgroundImages.map((image, index) => (
@@ -81,10 +81,10 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
         </div>
 
-        <div className="relative z-10 h-120 flex items-center justify-center">
+        <div className="relative z-10 h-full min-h-[560px] flex items-center justify-center px-4">
           <div className="text-center max-w-3xl mx-auto">
            
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in">
               Crafting Quality Apparel for
               <span className="block bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
                 Global Brands

@@ -30,9 +30,9 @@ const processSteps = [
 
 export default function HowWeWork() {
   return (
-    <section className="w-full py-24 px-4 bg-gray-50">
+    <section className="w-full py-14 sm:py-20 lg:py-24 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* LEFT SIDE - Heading & Button */}
           <div className="flex flex-col justify-start">
             {/* Label */}
@@ -41,7 +41,7 @@ export default function HowWeWork() {
             </p>
 
             {/* Main Heading */}
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-tight">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 sm:mb-12 leading-tight">
               How we work
             </h2>
 
@@ -61,12 +61,11 @@ export default function HowWeWork() {
               {processSteps.map((step) => {
                 const Icon = step.icon;
                 return (
-                  <div key={step.id} className=" flex gap-8">
+                  <div key={step.id} className="flex gap-4 sm:gap-8">
                     {/* Icon Circle */}
                     <div className="flex-shrink-0 pt-1">
                       <div className=" z-10 w-12 h-12 rounded-full bg-white border-2 border-orange-500 flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow duration-300">
                         <Icon className="w-6 h-6 text-orange-500" /> 
-                        <div className="absolute left-6 top-0 bottom-0 w-px bg-gray-300"></div>
                       </div>
                       
                     </div>

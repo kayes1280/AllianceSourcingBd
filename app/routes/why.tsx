@@ -30,17 +30,17 @@ const features = [
 // Main component
 export default function WhyChooseUs() {
   return (
-    <section className="w-full py-20 px-4 bg-gray-100">
+    <section className="w-full py-14 sm:py-20 px-4 bg-gray-100">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           {/* Top Label */}
           <p className="text-sm font-bold uppercase text-gray-600 mb-4">
             Why
           </p>
 
           {/* Main Heading */}
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             What sets us apart
           </h2>
 
@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
             return (
               <div
                 key={feature.id}
-                className="bg-white rounded-lg p-8 border border-gray-300 hover:shadow-lg hover:border-gray-400 transition-all duration-300"
+                className="bg-white rounded-lg p-6 sm:p-8 border border-gray-300 hover:shadow-lg hover:border-gray-400 transition-all duration-300"
               >
                 {/* React Icon */}
                 <div className="text-4xl mb-6 text-blue-600">

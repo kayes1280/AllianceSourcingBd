@@ -127,7 +127,7 @@ export default function ProductExpertise() {
 
         {/* Top Content */}
         <div className="text-center">
-          <h2 className="text-4xl sm:text-5xl md:text-4xl font-semibold text-black">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black">
             Product Expertise
           </h2>
 
@@ -169,7 +169,7 @@ export default function ProductExpertise() {
                     >
 
                       {/* Image */}
-                      <div className="h-[320px] w-full overflow-hidden bg-[#f3f3f3]">
+                      <div className="h-56 sm:h-72 lg:h-[320px] w-full overflow-hidden bg-[#f3f3f3]">
                         <img
                           src={product.image}
                           alt={product.title}

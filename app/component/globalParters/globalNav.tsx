@@ -15,7 +15,7 @@ const stats = [
 
 export default function GlobalPartnersHero() {
     return (
-        <section className="relative h-[600px] w-full overflow-hidden">
+        <section className="relative h-[420px] sm:h-[500px] lg:h-[600px] w-full overflow-hidden">
         
             <img src="/globalNetwork.png" alt="About Alliance Sourcing BD" className="absolute inset-0 h-full w-full object-cover"/>
             <div className="absolute inset-0 bg-[#001B44]/70"/>
@@ -28,7 +28,7 @@ export default function GlobalPartnersHero() {
                     <span className="font-semibold">Global Partners</span>
                 </p>
 
-                <h1 className="mb-4 text-4xl sm:text-5xl md:text-6xl font-light">
+                <h1 className="mb-4 text-3xl sm:text-5xl md:text-6xl font-light">
                     Our Global Partners
                 </h1>
 

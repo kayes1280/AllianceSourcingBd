@@ -34,8 +34,8 @@ const capabilities = [
 
 export default function FactorySection() {
     return (
-        <section className="bg-[#efe1d3] min-h-screen flex items-center justify-center px-6 py-16">
-            <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <section className="bg-[#efe1d3] min-h-screen flex items-center justify-center px-4 sm:px-6 py-12 sm:py-16">
+            <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
                 
                 {/* Left Content */}
                 <div>
@@ -43,7 +43,7 @@ export default function FactorySection() {
                         <FaIndustry />
                     </div>
 
-                    <h1 className="text-5xl md:text-6xl font-light leading-tight mb-8">
+                    <h1 className="text-3xl sm:text-4xl lg:text-6xl font-light leading-tight mb-6 sm:mb-8">
                         Factory and <br /> machinery <br /> capabilities
                     </h1>
                     <p className="text-gray-700 text-lg leading-8 mb-10 max-w-xl">
@@ -81,7 +81,7 @@ export default function FactorySection() {
                     <img
                         src="./public/img3.jpg"
                         alt="factory"
-                        className="w-full h-[700px] object-cover rounded-xl"
+                        className="w-full h-72 sm:h-[450px] lg:h-[700px] object-cover rounded-xl"
                     />
                 </div>
             </div>

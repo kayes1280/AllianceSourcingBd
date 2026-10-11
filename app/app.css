@@ -8,8 +8,14 @@
 html,
 body {
   @apply bg-white dark:bg-gray-950;
+  max-width: 100%;
+  overflow-x: clip;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+img {
+  max-width: 100%;
 }

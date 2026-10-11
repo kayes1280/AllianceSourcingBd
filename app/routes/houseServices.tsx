@@ -20,12 +20,12 @@ const services = [
 
 export default function ProfessionalServices() {
   return (
-    <section className="w-full py-24 px-4 bg-yellow-50">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center w-[90%] mx-auto">
+    <section className="w-full py-14 sm:py-20 lg:py-24 px-4 bg-yellow-50">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-center w-full sm:w-[90%]">
                 {/* image part */}
                 <div className=" flex items-center justify-center">
-                    <div className=" w-full h-full">
-                        <img className='rounded-[10px]' src="./public/house.webp" alt="img" />
+                    <div className="w-full">
+                        <img className='w-full h-auto rounded-[10px]' src="./public/house.webp" alt="img" />
                     </div>
                 </div>
 

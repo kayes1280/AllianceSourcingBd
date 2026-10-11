@@ -18,11 +18,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
-        <div className="w-[80%] mx-auto sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-24">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20 sm:h-24">
             
             {/* Left: Company Logos */}
-            <div className="flex items-center gap-4 flex-shrink-0">
+            <div className="flex items-center gap-2 sm:gap-4 min-w-0 flex-shrink-0">
               <div className="flex items-center gap-1">
                 <img
                   src="/logo.jpg"
@@ -42,7 +42,7 @@ export default function Navbar() {
             </div>
 
             {/* Center: Navigation Links (Desktop) */}
-            <div className="hidden md:flex items-center justify-center flex-1 mx-8">
+            <div className="hidden lg:flex items-center justify-center flex-1 mx-8">
               <div className="flex items-center gap-1">
                 {navItems.map((item) => (
                   <a
@@ -58,14 +58,14 @@ export default function Navbar() {
             </div>
 
             {/* Right: CTA Button (Desktop) */}
-            <div className="hidden md:flex flex-shrink-0">
+            <div className="hidden lg:flex flex-shrink-0">
               <button className="px-6 py-4 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-white text-sm font-semibold rounded-[12px] hover:shadow-lg hover:shadow-blue-300 transform hover:scale-105 transition-all duration-300">
                 Speak with us
               </button>
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden flex items-center gap-4">
+            <div className="lg:hidden flex items-center gap-4">
               <button className="px-4 py-1.5 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-white text-xs font-semibold rounded-full hover:shadow-lg transition-all duration-300">
                 Speak with us
               </button>
@@ -91,7 +91,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         <div
-            className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+            className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
                 isMenuOpen ? 'max-h-64' : 'max-h-0'
             }`}
           >
