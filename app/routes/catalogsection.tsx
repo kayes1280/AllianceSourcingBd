@@ -40,7 +40,7 @@ export default function CatalogSection() {
             {/* Left Image */}
             <div>
                 <img
-                    src="./public/img5.png"
+                    src="/img5.jpg"
                     alt="fashion"
                     className="w-full h-64 sm:h-96 lg:h-[600px] object-cover rounded-xl"
                 />

@@ -1,12 +1,12 @@
 import type { Route } from "./+types/home";
-import Hero from "./hero.tsx";
+import Hero from "./hero";
 import HowWeWork from "./process";
-import Why from "./why.tsx";
-import ProfessionalServices from "./houseServices.tsx";
-import Services from "./services.tsx";
-import CatalogSection from "./catalogsection.tsx";
-import FactorySection from "./factorySection.tsx";
-import ContactSection from "./contact.tsx";
+import Why from "./why";
+import ProfessionalServices from "./houseServices";
+import Services from "./services";
+import CatalogSection from "./catalogsection";
+import FactorySection from "./factorySection";
+import ContactSection from "./contact";
 
 
 export function meta({}: Route.MetaArgs) {

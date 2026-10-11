@@ -5,7 +5,7 @@ export default function ContactSection() {
         {/* Background Image */}
         <div className="absolute inset-0 bg-cover bg-center">
                 {/* Dark Overlay */}
-            <img className="w-full h-full object-cover" src="./public/img4.jpg" alt="" />
+            <img className="w-full h-full object-cover" src="/img4.jpg" alt="" />
             <div className="absolute inset-0 bg-black/50"></div>
         </div>
 

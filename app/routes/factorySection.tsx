@@ -79,7 +79,7 @@ export default function FactorySection() {
                 {/* Right Image */}
                 <div>
                     <img
-                        src="./public/img3.jpg"
+                        src="/img3.jpg"
                         alt="factory"
                         className="w-full h-72 sm:h-[450px] lg:h-[700px] object-cover rounded-xl"
                     />

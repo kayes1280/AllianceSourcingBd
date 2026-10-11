@@ -25,7 +25,7 @@ export default function ProfessionalServices() {
                 {/* image part */}
                 <div className=" flex items-center justify-center">
                     <div className="w-full">
-                        <img className='w-full h-auto rounded-[10px]' src="./public/house.webp" alt="img" />
+                        <img className='w-full h-auto rounded-[10px]' src="/house.jpg" alt="img" />
                     </div>
                 </div>
 
