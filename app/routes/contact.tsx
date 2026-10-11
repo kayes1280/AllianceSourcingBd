@@ -10,7 +10,7 @@ export default function ContactSection() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 border border-white/40 rounded-2xl w-full max-w-6xl py-10 sm:py-14 lg:py-20 px-4 sm:px-6 text-center backdrop-blur-[2px]">
+        <div className="relative z-10 rounded-2xl w-full max-w-6xl py-10 sm:py-14 lg:py-20 px-4 sm:px-6 text-center backdrop-blur-[2px]">
         
             <h1 className="text-white text-3xl md:text-6xl font-light mb-6">
                 Ready to start sourcing?
